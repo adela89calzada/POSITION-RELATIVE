@@ -7,16 +7,24 @@
     <style type="text/css">
         #capa1{ background-color: lightgreen;
                 border: 1px solid blue;
+                position: absolute;
+                top: 70px;
+                left: 50px;
+               }
+        #contenedor {
                 position: relative;
-                top: 50px;
-                left: 30px;
-                z-index: -1;}
+                height: 300px;
+                width: 400;
+                border: 1px solid red;
+        }
     </style>
 </head>
 <body>
     <p>Parrafo 1</p>
-    <div id="capa1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptate nisi, facere cumque soluta ipsum voluptates laudantium? Praesentium fugiat perferendis voluptatibus magnam consequuntur error distinctio quo repellendus velit assumenda! Distinctio!
+    <div id="contenedor">
+        <div id="capa1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptate nisi, facere cumque soluta ipsum voluptates laudantium? Praesentium fugiat perferendis voluptatibus magnam consequuntur error distinctio quo repellendus velit assumenda! Distinctio!
+        </div>
     </div>
     <p style="background-color: grey;">Párrafo 2</p>
 </body>
